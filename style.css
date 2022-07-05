@@ -5,12 +5,17 @@ body {
 }
 .flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 h1 {
     font-size: 50px;
 }
 .topper {
     color: orange;
+}
+.top-world {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 h2 {
     font-size: 40px;
@@ -29,4 +34,14 @@ a {
     padding: 10px 40px;
     border-radius: 10px;
     font-weight: 700;
+}
+/**Dream Area**/
+
+.dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream p {
+    padding-right: 100px;
 }
