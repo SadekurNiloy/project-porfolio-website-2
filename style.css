@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-container {
+    display: flex;
+}
+h1 {
+    font-size: 50px;
+}
+.topper {
+    color: orange;
+}
+h2 {
+    font-size: 40px;
+}
+.flexible-container img {
+    width: 70%;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+}
